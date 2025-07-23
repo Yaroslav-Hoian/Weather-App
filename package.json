@@ -1,11 +1,11 @@
 {
-  "name": "to_do_list",
+  "name": "Weather-App",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/to_do_list/",
+    "build": "vite build --base=/Weather-App/",
     "preview": "vite preview"
   },
   "devDependencies": {
