@@ -1,8 +1,7 @@
 export const refs = {
     body: document.querySelector("body"),
-    tasksList: document.querySelector("#task-list"),
+    weatherList: document.querySelector("#weather-list"),
     themeToggle: document.querySelector("#themeToggle"),
-    form: document.querySelector("#task-form"),
-    counterTaskToDo: document.querySelector(".counter-task"),
-    counterTaskComplete: document.querySelector(".counter-complete-task")
+    form: document.querySelector("#weather-form"),
+    loaderSpan: document.querySelector(".loader")
 }
