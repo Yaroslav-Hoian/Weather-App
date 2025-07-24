@@ -8,17 +8,36 @@
 
 .header-container {
   display: flex;
-  gap: 15px;
   justify-content: space-between;
+}
+
+.nav-box {
+  display: flex;
   align-items: center;
 }
 
 .header-form {
   display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+
+.form-box {
+  display: flex;
   gap: 15px;
+  align-items: center;
+}
+
+.label-form {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .header-form-input {
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 190px;
   height: 40px;
   padding-left: 5px;
   border-radius: 4px;
@@ -34,11 +53,12 @@
 }
 
 .header-form-btn {
+  max-width: 190px;
+  min-height: 40px;
   text-transform: uppercase;
   color: #273da4;
   border-radius: 4px;
   border: 1px solid #ff6b0a;
-
   font-size: 20px;
   font-weight: 500;
   background-color: rgb(245, 245, 245);
@@ -57,4 +77,24 @@ body.theme-light .header-form-btn {
 
 .header-form-btn:hover {
   transform: scale(1.1);
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-logo {
+  padding: 12px;
+}
+
+.logo-icon {
+  transition: fill 250ms ease-in-out;
+}
+
+body.theme-light .logo-icon {
+  fill: black;
+}
+
+body.theme-dark .logo-icon {
+  fill: white;
 }
